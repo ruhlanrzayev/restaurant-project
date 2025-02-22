@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="@ruhlanrzayev" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant website by Ruhlan Rzayev</title>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <!-- HEADER -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <h1>
+                <a href="#" class="logo">RR Food<span class="span">.</span></a>
+            </h1>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="nav-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#menu" class="navbar-link" data-nav-link>Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#review" class="navbar-link" data-nav-link>Review</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="btn btn-hover">Reservation</button>
+
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+
+            <!-- HERO -->
+            <section class="hero" id="home"
+                style="background-image: linear-gradient(to bottom, #e09200, #e09200, #e09200, #e59a21, #e59a21, #e59a21)">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <h2 class="h1 hero-title">Lorem ipsum dolor sit amet.</h2>
+
+                        <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, quod
+                            eveniet quis earum autem corrupti.</p>
+
+                        <button class="btn">View Menu</button>
+
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="images/burgerbackground.png" width="820" height="716" alt="" aria-hidden="true"
+                            class="w-100 hero-img-bg">
+
+                        <img src="images/homeburger.png" width="750" height="637" loading="lazy" alt="Burger"
+                            class="w-100 hero-img">
+                    </figure>
+
+                </div>
+            </section>
+
+            <!-- DELIVERY -->
+            <section class="section section-divider gray delivery">
+                <div class="container">
+
+                    <div class="delivery-content">
+
+                        <h2 class="h2 section-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </h2>
+
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis expedita ratione hic
+                            nam rem itaque dignissimos, nisi ea. Dolorum praesentium similique dolores iusto
+                            perspiciatis. Ducimus et facere perferendis facilis minima distinctio dolor? Suscipit animi
+                            provident perspiciatis fuga nisi dolor reprehenderit accusantium. Pariatur commodi velit
+                            quia repudiandae quos obcaecati quibusdam corporis.
+                        </p>
+
+                        <button class="btn btn-hover">Order Now</button>
+                    </div>
+
+                    <figure class="delivery-banner">
+                        <img src="images/deliveryBackground.png" width="700" height="602" loading="lazy" alt="clouds"
+                            class="w-100">
+
+                        <img src="images/deliveryBoy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+                            class="w-100 delivery-img" data-delivery-boy>
+                    </figure>
+
+                </div>
+            </section>
+
+            <!-- PROMO -->
+            <section class="section section-divider white promo" id="menu">
+                <div class="container">
+
+                    <ul class="promo-list has-scrollbar">
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Breakfast</h3>
+
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo
+                                    accusamus velit.
+                                </p>
+
+                                <img src="images/menuFirstImage.png" width="300" height="300" loading="lazy" alt="Breakfast"
+                                    class="w-100 card-banner">
+
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Breakfast</h3>
+
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo
+                                    accusamus velit.
+                                </p>
+
+                                <img src="images/menuSecondImage.png" width="300" height="300" loading="lazy" alt="Breakfast"
+                                    class="w-100 card-banner">
+
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Breakfast</h3>
+
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo
+                                    accusamus velit.
+                                </p>
+
+                                <img src="images/menuFirstImage.png" width="300" height="300" loading="lazy" alt="Breakfast"
+                                    class="w-100 card-banner">
+
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Breakfast</h3>
+
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo
+                                    accusamus velit.
+                                </p>
+
+                                <img src="images/menuSecondImage.png" width="300" height="300" loading="lazy" alt="Breakfast"
+                                    class="w-100 card-banner">
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- BANNER -->
+            <section class="section section-divider gray banner">
+                <div class="container">
+
+                    <ul class="banner-list">
+
+                        <li class="banner-item banner-lg">
+                            <div class="banner-card">
+
+                                <img src="images/shopBannerFirst.jpg" width="550" height="450" loading="lazy"
+                                    alt="first-shop-banner" class="banner-img">
+
+                                <div class="banner-item-content">
+
+                                    <h3 class="banner-title">Lorem ipsum dolor sit amet!</h3>
+
+                                    <p class="banner-text">Sale off 50% only this week</p>
+
+                                    <button class="btn">Order Now</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-sm">
+                            <div class="banner-card">
+
+                                <img src="images/shopBannerSecond.jpg" width="550" height="465" loading="lazy"
+                                    alt="second-shop-banner" class="banner-img">
+
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">Lorem, ipsum!</h3>
+
+                                    <p class="banner-text">50% off Now!</p>
+
+                                    <button class="btn">Order Now</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-sm">
+                            <div class="banner-card">
+
+                                <img src="images/shopBannerThird.jpg" width="550" height="465" loading="lazy"
+                                    alt="third-shop-banner" class="banner-img">
+
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">Lorem, ipsum!</h3>
+
+                                    <p class="banner-text">50% off Now!</p>
+
+                                    <button class="btn">Order Now</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-md">
+                            <div class="banner-card">
+
+                                <img src="images/shopBannerFourth.jpg" width="550" height="220" loading="lazy"
+                                    alt="fourth-shop-banner" class="banner-img">
+
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">Lorem, ipsum dolor!</h3>
+
+                                    <p class="banner-text">50% off Now!</p>
+
+                                    <button class="btn">Order Now</button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- FOOD MENU -->
+            <section class="section food-menu" id="food-menu">
+                <div class="container">
+
+                    <p class="section-subtitle">Popular Dishes</p>
+
+                    <h2 class="h2 section-title">
+                        Our Delicious <span class="span">Foods</span>
+                    </h2>
+
+                    <p class="section-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis velit hic atque est ratione excepturi!
+                    </p>
+
+                    <ul class="fiter-list">
+
+                        <li>
+                            <button class="filter-btn  active">All</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Pizza</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Burger</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Drinks</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Sandwich</button>
+                        </li>
+
+                    </ul>
+
+                    <ul class="food-menu-list">
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="images/foodMenuFirst.png" width="300" height="300" loading="lazy"
+                                        alt="food-menu-first-image" class="w-100">
+
+                                    <div class="badge">-15%</div>
+
+                                    <button class="btn food-menu-btn">Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">LOREM</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Lorem, ipsum dolor.</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price">$49.00</data>
+
+                                    <del class="del" value="69.00">$69.00</del>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="images/foodMenuSecond.png" width="300" height="300" loading="lazy"
+                                        alt="food-menu-second-image" class="w-100">
+
+                                    <div class="badge">-10%</div>
+
+                                    <button class="btn food-menu-btn">Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">LOREM</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Lorem, ipsum dolor.</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="29.00">$29.00</data>
+
+                                    <del class="del">$39.00</del>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="images/foodMenuThird.png" width="300" height="300" loading="lazy"
+                                        alt="food-menu-last-image" class="w-100">
+
+                                    <div class="badge">-25%</div>
+
+                                    <button class="btn food-menu-btn">Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">LOREM</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Lorem, ipsum dolor.</h3>
+
+                                <div class="price-wrapper">
+
+                                    <p class="price-text">Price:</p>
+
+                                    <data class="price" value="49.00">$49.00</data>
+
+                                    <del class="del">$69.00</del>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </section>
+
+            <!-- TESTIMONIALS -->
+            <section class="section section-divider white testi" id="review">
+                <div class="container">
+
+                    <p class="section-subtitle">Testimonials</p>
+
+                    <h2 class="h2 section-title">
+                        Our Customers <span class="span">Reviews</span>
+                    </h2>
+
+                    <p class="section-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam ullam, officia ipsum expedita nisi.
+                    </p>
+
+                    <ul class="testi-list has-scrollbar">
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="images/reviewFirstAvatar.jpg" width="80" height="80" loading="lazy"
+                                            alt="Robert William">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Robert William</h3>
+
+                                        <p class="testi-title">CEO Kingfisher</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi enim voluptatum odit, facere iusto quae ad placeat eaque nobis sed?
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="images/reviewSecondAvatar.jpg" width="80" height="80" loading="lazy"
+                                            alt="Thomas Josef">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                                        <p class="testi-title">CEO Getforce</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore amet provident voluptate eos ducimus voluptatibus totam saepe praesentium soluta pariatur?
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="images/reviewThirdAvatar.jpg" width="80" height="80" loading="lazy"
+                                            alt="Charles Richard">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Charles Richard</h3>
+
+                                        <p class="testi-title">CEO Angela</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente pariatur possimus architecto porro itaque dolorum quasi iure ut autem odit.
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+        </article>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+
+        <div class="footer-top" style="background-image: url('images/footer-illustration.png')">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="" class="logo">RR Food<span class="span">.</span></a>
+
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi dicta? Voluptate, placeat ducimus! Magnam.
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Contact Info</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">+994 70 811 70 71</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">info@gmail.com</p>
+                    </li>
+
+                    <li>
+                        <address class="footer-list-item">Azerbaijan, Baku, AZ1234</address>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Opening Hours</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Monday-Friday: 08:00-22:00</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Saturday: 10:00-16:00</p>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright-text">
+                    &copy; 2025 by <a href="#" class="copyright-link">ruhlanrzayev</a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+
+    <!-- Ionicon  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
